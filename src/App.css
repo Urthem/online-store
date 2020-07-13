@@ -1,4 +1,5 @@
 body {
+  min-height: 100vh;
   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   background-size: cover;
   font-family: "Open Sans Condensed", sans-serif;
@@ -8,4 +9,8 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+* {
+  box-sizing: border-box;
 }
